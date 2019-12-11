@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    font-size: 12px;
+    background:#f2f2f2;
+    min-width: 300px;   
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+    /*color: #666;*/
+    font-family:"PingFang SC-Regular","Microsoft YaHei",  Helvetica,sans-serif,tahoma, Helvetica, \5FAE\8F6F\96C5\9ED1;
+}
+
+ol, ul {
+    list-style: none
+}
+
+:focus {
+    outline: 0
+}
+
+a img {
+    border: 0
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+table {
+    empty-cells: show
+}
+
+ins {
+    text-decoration: none
+}
+
+del {
+    text-decoration: line-through
+}
+
+em {
+    font-style: normal
+}
+
+button::-moz-focus-inner, input[type=reset]::-moz-focus-inner, input[type=button]::-moz-focus-inner, input[type=submit]::-moz-focus-inner, input[type=file] > input[type=button]::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+/*自定义样式*/
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+　.clearfix:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both
+}
+.clearfix{
+    zoom:1;
+}
+
+.disInline {
+    display: inline-block;
+}
+.table{
+    display:table;
+}
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.textCenter{
+    text-align:center;
+}
+.ellipsis{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
