@@ -3,7 +3,11 @@
 
 安装依赖：npm install
 
-运行项目：npm run serve
+运行项目：npm run serve 
+****
+0
+
+
 ![image](https://github.com/zhaominzm/measureVue/blob/master/readImg/form_1.png)
 ![image](https://github.com/zhaominzm/measureVue/blob/master/readImg/body.png)
 ![image](https://github.com/zhaominzm/measureVue/blob/master/readImg/form_2.png)
